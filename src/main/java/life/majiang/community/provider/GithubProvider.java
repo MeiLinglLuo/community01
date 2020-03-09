@@ -25,7 +25,6 @@ public class GithubProvider {
 
             return token;
         } catch (Exception e) {
-            System.out.println("GithubProvider.java");
             e.printStackTrace();
         }
         return null;
@@ -42,7 +41,6 @@ public class GithubProvider {
             return githubUser;
 
         } catch (IOException e) {
-            System.out.println("GithubProvider_02.java");
             e.printStackTrace();
         }
 
